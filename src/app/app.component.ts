@@ -7,4 +7,23 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+
+
+public origin;
+public destination;
+
+
+
+ngOnInit() {
+  this.getDirection()
+}
+
+getDirection() {
+  this.origin;
+  this.destination;
+
+ 
+}
+
 }

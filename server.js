@@ -5,7 +5,7 @@ const path = require ('path');
 const app = express ();
 
 // Servir solo los archivos estáticos del directorio dist
-app.use (express.static (__dirname+'./dist/nav-google'));
+app.use (express.static (__dirname+'/dist/nav-google'));
 
 app.get ('/',(req, res)=>{
     
